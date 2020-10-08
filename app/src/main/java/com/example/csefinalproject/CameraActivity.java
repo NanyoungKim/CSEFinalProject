@@ -122,13 +122,13 @@ public class CameraActivity extends AppCompatActivity
 
         matInput = inputFrame.rgba();
 
-        if ( matResult == null )
+//        if ( matResult == null )
+//
+//            matResult = new Mat(matInput.rows(), matInput.cols(), matInput.type());
+//
+//        ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());
 
-            matResult = new Mat(matInput.rows(), matInput.cols(), matInput.type());
-
-        ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());
-
-        return matResult;
+        return matInput;
     }
 
 
