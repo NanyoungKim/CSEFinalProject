@@ -128,6 +128,7 @@ public class CameraActivity extends AppCompatActivity
 //
 //        ConvertRGBtoGray(matInput.getNativeObjAddr(), matResult.getNativeObjAddr());
 
+        //
         return matInput;
     }
 
